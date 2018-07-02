@@ -3,26 +3,52 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <title>Daly Builders</title>
   <meta name="description" content="Daly Building and Roofing Contractors">
   <meta name="author" content="Niall Curtis">
 
   <link rel="stylesheet" href="css/stylesheet.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
 </head>
 
 <body>
   <script src="js/scripts.js"></script>
-  <div class="topbar">
-      <a class="logo" href="">Daly Builders</a>
+  <div class="topbar" id="topbar">
+      <a class="logo" href="">Daly Builders <i class="fas fa-home"></i></a>
       <a href="#about">About</a>
       <a href="#news">News</a>
       <a href="#contact">Contact</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="javascript:void(0);" class="icon" onclick="toggleTopbar()">
         <i class="fa fa-bars"></i>
       </a>
+  </div>
+  <div class="imageSlideshow" id="imageSlideshow">
+      <img class="slideshowImage" src="img/image01.jpg">
+      <img class="slideshowImage" src="img/image02.jpg">
+      <img class="slideshowImage" src="img/image03.jpg">
+      <img class="slideshowImage" src="img/image04.jpg">
+      <img class="slideshowImage" src="img/image05.jpg">
+  </div>
+  <script src="js/imageSlideshow.js"></script>
+  <div class="about" id="about">
+    <h2>Daly Building and Roofing Contractors</h2>
+    <br>
+    <p>
+      A local, reliable, family run building firm, now in it's 3rd generation. We offer the complete building service, from initial planning to completion.
+      Operating out of Johnston, offering services to Pembrokeshire.
+    </p>
+    <div class="socialMediaLinks">
+      <a href="https://m.me/DalyBuilders">Message us for a quote <i class="fab fa-facebook-messenger"></i></a><br>
+      <a href="http://facebook.com/DalyBuilders">View our Facebook Page <i class="fab fa-facebook"></i></a><br>
+      <a>Phone Us: 07799 361427</a>
+    </div>
+    <p>
+      Feel free to contact us anytime.<br>
+      Our Address: 8A Bulford Road, Johnston, Pembrokeshire, SA62 3EU
+    </p>
+    
   </div>
 </body>
 </html>
